@@ -21,7 +21,7 @@ function sumOfNumbers(arrayOfNumbers) {
   }
   console.log("sum of numbers", sum);
 }
-
+sumOfArrays(numbers);
 
 /**
  * Challenge - 2
@@ -38,7 +38,11 @@ function countEvenNumbers(arrayOfNumbers) {
     if (arrayOfNumbers[i] % 2 == 0) {
       evenNumbers.push(arrayOfNumbers[i]);
     }
+  }
+  onsole.log("evenNumbers count", evenNumbers.length);
+  return evenNumbers.length;
 }
+countEvenNumbers(numbers);
 
 
 /**
