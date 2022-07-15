@@ -33,7 +33,7 @@ sumOfArrays(numbers);
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  let evenNumbers = arrayOfNumbers.filter (number {
+  let evenNumbers = arrayOfNumbers.filter (number =>{
     return number % 2 == 0
   })
   return evenNumbers.length;
